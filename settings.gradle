@@ -1,0 +1,2 @@
+rootProject.name='cat_dog_tflite'
+include ':app'

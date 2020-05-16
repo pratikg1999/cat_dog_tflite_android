@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ic_bg"
+    tools:context=".MainActivity">
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_weight="1">-->
+<!--        <ImageView-->
+<!--            android:id="@+id/img0"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:src="@drawable/img0"/>-->
+<!--        <ImageView-->
+<!--            android:id="@+id/img1"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:src="@drawable/img1"/>-->
+<!--    </LinearLayout>-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_weight="1">-->
+<!--        <ImageView-->
+<!--            android:id="@+id/img2"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:src="@drawable/img2"/>-->
+<!--        <ImageView-->
+<!--            android:id="@+id/img3"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:src="@drawable/img3"/>-->
+<!--    </LinearLayout>-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_weight="1">-->
+<!--        <ImageView-->
+<!--            android:id="@+id/img4"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:src="@drawable/img4"/>-->
+<!--        <ImageView-->
+<!--            android:id="@+id/img5"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:src="@drawable/img5"/>-->
+<!--    </LinearLayout>-->
+
+    <TextView
+        android:id="@+id/tv_top_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Cats-vs-dogs classifier"
+        android:foregroundGravity="top"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_marginTop="20dp"
+        android:textSize="40sp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginBottom="30dp">
+
+    <Button
+        android:id="@+id/b_select_from_gal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/button_bg"
+        android:padding="10dp"
+        android:text="Select image from gallery"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <Button
+        android:id="@+id/b_select_from_cam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:text="Select image from camera"
+        android:background="@drawable/button_bg"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/holo_blue_dark"
+        />
+
+    </LinearLayout>
+
+</LinearLayout>
